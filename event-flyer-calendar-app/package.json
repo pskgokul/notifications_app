@@ -1,0 +1,31 @@
+{
+  "name": "event-flyer-calendar-app",
+  "version": "1.0.0",
+  "description": "A web app that takes a picture of an event flyer or a screenshot of an Instagram post to automatically create a Google Calendar event, set up a reminder, and set an alarm for the event.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "event",
+    "calendar",
+    "reminder",
+    "alarm",
+    "flyer",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "live-server": "^1.2.1"
+  }
+}
