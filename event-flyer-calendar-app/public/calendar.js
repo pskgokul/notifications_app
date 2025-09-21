@@ -43,9 +43,7 @@ const screens = {
         });
 
         async function extractEventDetails(base64ImageData) {
-            // IMPORTANT: PASTE YOUR GOOGLE AI API KEY HERE
-            // Get a free key from Google AI Studio: https://aistudio.google.com/app/apikey
-            const apiKey = "AIzaSyCZldMbx_OgEJx5dVZotQFha49AGJ6gJP4";
+            const apiKey = "GOOGLE_AI_API_KEY";
 
             if (apiKey === "PASTE_YOUR_API_KEY_HERE" || apiKey === "") {
                 homeError.textContent = "API Key is missing. Please add your Google AI API key in the script.";
